@@ -1,6 +1,6 @@
 // enahced object literals
 
-function newUser(user, age, country){
+function newUser(user, age, country,uId){
     return{
         user,
         age,
@@ -9,4 +9,4 @@ function newUser(user, age, country){
     }
 }
 
-console.log(newUser('Martín',24,PE))
+console.log(newUser('Martín',24,'PE',1));
