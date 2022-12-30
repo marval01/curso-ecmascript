@@ -10,4 +10,5 @@ const anotherFunction = ()=>{
 }
 
 anotherFunction()
-    .then(response => console.log(response));//.then() es un metodo de la promesa que retorna anotherFunction y recibe parametros, en este caso un callback.
+    .then(response => console.log(response))//.then() es un metodo de la promesa que retorna anotherFunction y recibe parametros, en este caso un callback.
+    .catch(err => console.log(err));//.catch() es un metodo de la promesa que nos retorna un error. 
