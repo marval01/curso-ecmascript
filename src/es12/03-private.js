@@ -4,17 +4,17 @@ class user {
         this. age = age;
     }
     //metodos 
-    speak(){
+    #speak(){ // con el hastag se vuelve un metodo privado.
         return 'Hello';
     }
     greeting(){
         return `${this.speak()} ${this.name}`;
     }
 
-    get uAge(){
+    get #uAge(){
         return this.age;
     }
-    set uAge(n){
+    set #uAge(n){
         this.age = n;
     }
 }
